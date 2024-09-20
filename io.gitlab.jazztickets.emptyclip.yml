@@ -1,6 +1,6 @@
 app-id: io.gitlab.jazztickets.emptyclip
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: emptyclip
 rename-desktop-file: emptyclip.desktop
@@ -20,5 +20,5 @@ modules:
     builddir: true
     sources:
       - type: archive
-        url: https://gitlab.com/jazztickets/uploads/-/raw/main/emptyclip-2.0.2-adc6abf-src.tar.gz
-        sha256: 9f349fefb32a63dcc354f3d753df99e9224e44c9f777f880be677ce6cda27f18
+        url: https://gitlab.com/jazztickets/uploads/-/raw/main/emptyclip-2.0.3-0d97724f-src.tar.gz
+        sha256: b3253fc11f8a03fa4aa4eab519eedc8fff3d79170e1d0f86d507ad2ded1ea165
