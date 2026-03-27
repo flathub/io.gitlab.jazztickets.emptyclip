@@ -1,12 +1,19 @@
 {
 	"app-id": "io.gitlab.jazztickets.emptyclip",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "24.08",
+	"runtime-version": "25.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "emptyclip",
 	"rename-desktop-file": "emptyclip.desktop",
 	"rename-icon": "emptyclip",
 	"rename-appdata-file": "emptyclip.xml",
+	"finish-args": [
+		"--device=dri",
+		"--share=ipc",
+		"--socket=fallback-x11",
+		"--socket=pulseaudio",
+		"--socket=wayland"
+	],
 	"modules": [
 		{
 			"name": "emptyclip",
@@ -15,17 +22,10 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://gitlab.com/jazztickets/uploads/-/raw/main/emptyclip-2.0.3-0d97724f-src.tar.gz",
-					"sha256": "b3253fc11f8a03fa4aa4eab519eedc8fff3d79170e1d0f86d507ad2ded1ea165"
+					"url": "https://gitlab.com/jazztickets/uploads/-/raw/main/emptyclip-2.0.4-8007fb22-src.tar.gz",
+					"sha256": "f7cc69a963a5ca4fd0ee276cff8ac61d5b91bc543dc5de7d09e699fc6d7f6f3f"
 				}
 			]
 		}
-	],
-	"finish-args": [
-		"--device=dri",
-		"--share=ipc",
-		"--socket=fallback-x11",
-		"--socket=pulseaudio",
-		"--socket=wayland"
 	]
 }
