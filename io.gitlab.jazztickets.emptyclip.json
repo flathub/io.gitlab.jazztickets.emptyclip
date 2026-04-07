@@ -1,5 +1,5 @@
 {
-	"app-id": "io.gitlab.jazztickets.emptyclip",
+	"id": "io.gitlab.jazztickets.emptyclip",
 	"runtime": "org.freedesktop.Platform",
 	"runtime-version": "25.08",
 	"sdk": "org.freedesktop.Sdk",
